@@ -8,7 +8,7 @@ https://developpement-cloud.appspot.com/
 <h1> Ce qui  marche  </h1> 
 
 Pour le moment, les requetes suivantes sont implémentées :
-* Liste des pétitions de la plus récente à la plus ancienne
+- Liste des pétitions de la plus récente à la plus ancienne
 - Liste des pétitions triées par nombre de vote
 - Recherche de pétition par son nom
 - Recherche de pétitions votées par un utilisateur 
@@ -26,4 +26,4 @@ La pagination et le vote d'une petition ne sont pas encore fonctionnels.
 
 Alternative aux projections sur les StringList
 
-Conclusion :
+<h1> Conclusion </h1>
