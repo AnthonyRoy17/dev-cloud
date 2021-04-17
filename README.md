@@ -22,6 +22,7 @@ Malgré les fonctionnalités implémentés, nous n'avons pas réussi à réalise
 
 <h1> Schéma de data (screenschot des entités) </h1>
 
+Intégrer screenshot de l'entité des petitions
 
 <h1> Ce qui pourrait être amélioré </h1>
 
