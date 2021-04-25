@@ -6,18 +6,22 @@ https://developpement-cloud.appspot.com/
 
 <h1> Ce qui  marche  </h1> 
 
-Pour le moment, les requetes suivantes sont implémentées :
+Les fonctionnalités suivantes sont implémentées :
 - Liste des pétitions de la plus récente à la plus ancienne
 - Liste des pétitions triées par nombre de vote
 - Recherche de pétition par son nom
 - Recherche de pétitions votées par un utilisateur 
+- Liste des pétitions de l'utilisateur connecté et des pétitions pour lesquelles il a voté
 - Vue détaillée d'une pétition
+- Pagination
+- Authentification Google
 
 <h1> Ce qui ne marche pas </h1>
 
 Malgré les fonctionnalités implémentés, nous n'avons pas réussi à réaliser correctement les points suivants :
 
-- Ne pas faire de projections sur les StringList : lors de certaines requêtes nous n'avons pas besoins de ces listes et elles augmentent juste le temps de traitement du fait de leur grande taille. Le problème est que nous avons tout de même besoin d'une certaine quantité de champs pour afficher toutes les informations à propos des pétitions. Nous sommes donc obligés de tout afficher pour l'instant.
+- Ne pas faire de projections sur les StringList : lors de certaines requêtes nous n'avons pas besoins de ces listes et elles augmentent juste le temps de traitement du fait de leur grande taille. Le problème est que nous avons tout de même besoin d'une certaine quantité de champs pour afficher toutes les informations à propos des pétitions. Nous sommes donc obligés de tout afficher pour l'instant
+- ...
 
 
 <h1> Schéma de data (screenschot des entités) </h1>
