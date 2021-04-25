@@ -20,23 +20,27 @@ Les fonctionnalités suivantes sont implémentées :
 
 Malgré les fonctionnalités implémentés, nous n'avons pas réussi à réaliser correctement les points suivants :
 
-- Ne pas faire de projections sur les StringList : lors de certaines requêtes nous n'avons pas besoins de ces listes et elles augmentent juste le temps de traitement du fait de leur grande taille. Le problème est que nous avons tout de même besoin d'une certaine quantité de champs pour afficher toutes les informations à propos des pétitions. Nous sommes donc obligés de tout afficher pour l'instant
-- ...
+- Ne pas faire de projections sur les StringList : lors de certaines requêtes nous n'avons pas besoins de ces listes et elles augmentent juste le temps de traitement du fait de leur grande taille. Le problème est que nous avons tout de même besoin d'une certaine quantité de champs pour afficher toutes les informations à propos des pétitions. Nous sommes donc obligés de tout afficher pour l'instant. Cela peut poser problème dans le cas où il y a beaucoup de votants, ce qui bloquerait le passage à l'échelle.
+- Pagination pour les votants d'une pétition, du fait que nous récupérons les listes de votants. 
+- La gestion de la concurrence n'est pas implémenté, elle est importante au cas où deux utilisateurs signent en même temps la même pétition même si cela est peu probable. Il faudrait intégrer des transactions lors des signatures.
 
+<h1> Schéma de data </h1>
 
-<h1> Schéma de data (screenschot des entités) </h1>
-
-Intégrer screenshot de l'entité des petitions
+Intégrer screenshot de l'entité des petitions (screenschot des entités)
 
 <h1> Ce qui pourrait être amélioré </h1>
 
-Notre application est fonctionnel dans les grandes lignes et permet de réaliser plusieurs fonctionnalités de bases. Cependant elle reste améliorable pour être plus pertinente, on pourrait par exemple :
+Notre application est fonctionnelle dans les grandes lignes et permet de réaliser plusieurs fonctionnalités de bases. Cependant elle reste améliorable pour être plus pertinente, on pourrait par exemple :
 
 - Intégrer un panel de pétitions en cours sur la page d'accueil
 - Intégrer des images pour illustrer les pétitions
 - Améliorer les recherches (Casse, élargir les résultats...)
 - Permettre de trier les pétitions par type (Droits, Santé, Culture...)
-- ...
+- 
+- Intégrer la pagination sur les onglets mes pétitions et pétitions par utilisateur
+- 
+- Optimiser l'application dans le cas d'une utilisation massive (voir les points dans la partie ci-dessus)
+
 
 <h1> Conclusion </h1>
 
