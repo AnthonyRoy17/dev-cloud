@@ -1,5 +1,3 @@
-
-
 CHANUT Kévin | ROY Anthony
 
 Voici ci-dessous le lien de notre application cloud : 
