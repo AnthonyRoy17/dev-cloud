@@ -30,6 +30,7 @@ Notre application est fonctionnel dans les grandes lignes et permet de réaliser
 
 - Intégrer un panel de pétitions en cours sur la page d'accueil
 - Intégrer des images pour illustrer les pétitions
+- Améliorer les recherches (Casse, élargir les résultats...)
 - Permettre de trier les pétitions par type (Droits, Santé, Culture...)
 - ...
 
