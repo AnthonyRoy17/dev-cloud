@@ -37,6 +37,6 @@ Notre application est fonctionnel dans les grandes lignes et permet de réaliser
 <h1> Conclusion </h1>
 
 Ce projet était pour nous très intéressant à réaliser, c'était une bonne initiation à l'utilisation des applications CLOUD. Cela nous a permis de découvrir ce concept avec un cas concret, de plus nous avons pu y appliquer les différentes bonnes pratiques abordés durant le module. 
-Une partie importante du projet consistait à se documenter sur les fonctionnalités à implémenter. Chaque fonctionnalité était affecté à une requête. Chacune des requêtes devait être pensé pour permettre le passage à l'échelle de l'application.
+Une partie importante du projet consistait à se documenter sur les fonctionnalités à implémenter. Chaque fonctionnalité était affecté à une requête, qui devait être pensé pour permettre le passage à l'échelle de l'application.
 Pour aller plus loin nous pourrions améliorer certaine méthodes API afin de gagner en temps de traitement. Pour passer correctement à l'échelle peut importe le nombre de votants sur les pétitions il faudrait notamment implémenter des requêtes qui ne nécessiterait pas de projection sur les StringList, chose que nous n'avons pas réussi à réaliser correctement.
   
