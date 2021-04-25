@@ -1,4 +1,5 @@
 
+
 CHANUT Kévin | ROY Anthony
 
 Voici ci-dessous le lien de notre application cloud : 
@@ -26,7 +27,9 @@ Malgré les fonctionnalités implémentés, nous n'avons pas réussi à réalise
 
 <h1> Schéma de data </h1>
 
-Intégrer screenshot de l'entité des petitions (screenschot des entités)
+(Cliquer sur l'image)
+![unknown](https://user-images.githubusercontent.com/48654824/116001650-b65c3980-a5f5-11eb-8122-11b9169379d9.png)
+Pour la clé de chaque entité, elle est créée comme ceci : TimeStamp inversé + user qui créer la pétition. Pour le TimeStamp nous avons choisi le plus grand entier disponible auquel nous enlevons le timestamp actuel afin d'afficher les résultats du plus récent au plus vieux grâce à cette clé
 
 <h1> Ce qui pourrait être amélioré </h1>
 
@@ -44,3 +47,9 @@ Ce projet était pour nous très intéressant à réaliser, c'était une bonne i
 Une partie importante du projet consistait à se documenter sur les fonctionnalités à implémenter. Chaque fonctionnalité était affecté à une requête, qui devait être pensé pour permettre le passage à l'échelle de l'application.
 Pour aller plus loin nous pourrions améliorer certaine méthodes API afin de gagner en temps de traitement. Pour passer correctement à l'échelle peut importe le nombre de votants sur les pétitions il faudrait notamment implémenter des requêtes qui ne nécessiterait pas de projection sur les StringList, chose que nous n'avons pas réussi à réaliser correctement.
   
+ <h1> Pour tester l'application </h1>
+ 
+ Voici quelques données pour faire des recherches :
+ 
+ Nom de pétition (recherche par nom) : "Petition331", "groupe-8"
+ Nom d'utilisateur : "kevchanut@gmail.com", "ony278@gmail.com", U778
