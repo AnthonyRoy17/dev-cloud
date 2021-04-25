@@ -36,9 +36,7 @@ Notre application est fonctionnelle dans les grandes lignes et permet de réalis
 - Intégrer des images pour illustrer les pétitions
 - Améliorer les recherches (Casse, élargir les résultats...)
 - Permettre de trier les pétitions par type (Droits, Santé, Culture...)
-- Intégrer la pagination sur les onglets mes pétitions et pétitions par utilisateur
 - Optimiser l'application dans le cas d'une utilisation massive (voir points cités dans la partie ce qui ne marche pas)
-
 
 <h1> Conclusion </h1>
 
